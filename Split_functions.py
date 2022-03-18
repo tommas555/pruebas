@@ -33,6 +33,8 @@ def Separar_grupos_10(Dic_pages, pages, key, value):
 		key = key + 1
 	return Dic_pages
 
+
+# agregando comentario
 def Separar_grupos_20(Dic_pages, pages, key, value):
 	while  key < pages:
 		Dic_pages[key] = [value, value + 20]
