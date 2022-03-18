@@ -43,11 +43,4 @@ def Separar_grupos_20(Dic_pages, pages, key, value):
 def error():
 	return 'fuera de rango'
 
-switch_semana = {
-	1: Separar_grupos_1,
-	2: Separar_grupos_2,
-	3: Separar_grupos_3,
-	4: Separar_grupos_5,
-	5: Separar_grupos_10,
-	6: Separar_grupos_20
-}
+
